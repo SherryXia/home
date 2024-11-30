@@ -1,49 +1,51 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+Welcome to Min's reality! I am a senior software engineer at Google, serving as ARCore tech lead. I also spend 20% time at Google Deepmind Robot team.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I am interested in technical Human-computer interaction and robot learning from diverse sources and multimodal datasets. 
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+Previously, I completed my M.S. in electrical and computer engineering at Cornell University and my B.S. in electronic science and engineering at Southeast University, China.See my research, projects, youtube, talks and demos for fun! 
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+# Research Projects
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## Video to Rewards for Robotic Skill Synthesis
+<video class="video" playsinline="" muted="" autoplay="" loop=""><source src="assets/video/RewardsForRoboticSkillSynthesis.mov" type="video/mp4"></video>
+Our goal is to enable Intuitive robot skill creation through AR and Human Demonstration. Users provide a video demonstration and our system generates the reward functions through large language models (LLMs) to control low level robot actions.
+Traditional robot programming is tedious and requires expert knowledge. Defining complex behaviors through low-level commands is time-consuming and inaccessible to non-experts.
+We envision a future where anyone can easily teach robots new skills. Imagine instructing a robot simply by showing it what to do, much like we teach each other.
+Project completed, in progress of writing paper.
 
-**Markdown generator**
+## AI glasses
+<iframe class="ai-glass" width="780" height="439" src="https://www.youtube.com/embed/OVbce5iGSQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<div class="ai-glass-metadata">Glasses appear at 3:00</div>
+Our aim was to generate responses based on users' queries and images captured by glasses. I proposed a novel composed retrieval model, LLMs generating responses based on CLIP detected objects, business info from Google Lens, and user query.  As the system evolves, we need a way to benchmark the performance. I defined five innovative rating categories: factuality, readiness, offensiveness, informativeness and responsiveness, and designed the prompts to evaluate the response in each category automatically. The evaluation results correlated highly with human labels. For example, the factuality gets 95% precision and 90% recall on a dataset containing 4000 responses, which was already rated by humans.
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+## Geospatial Content in Google Maps
+<iframe width="780" height="439" src="https://www.youtube.com/embed/udoSz_UBUdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+I led a cross-platform (iOS and Android) system for serving virtual content in Google Maps Street View and Live View, impacting millions of users at landmark locations globally. The virtual contents align accurately with geo coordinates and buildings.
+Video: Explore historical landmarks in Paris with augmented reality in Google Maps | Google Arts & Culture
+Geospatial API
+I led the Geospatial API, which was launched at Google I/O 2022. The ARCore Geospatial API enables you to remotely attach content to any area covered by Google Street View and create AR experiences on a global scale. It uses device sensor and GPS data to detect the device's environment, then matches the recognizable parts of that environment to a localization model provided by Google’s Visual Positioning System (VPS) to determine the precise location of a user’s device.
+[Project link](https://developers.google.com/ar/develop/geospatial)
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+## Geospatial API V2
+<iframe width="780" height="439" src="https://www.youtube.com/embed/BPCuT_5Hv8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+I led the Streetscape Geometry APIs, which was launched at Google I/O 2023. The Streetscape Geometry APIs provide the geometry of terrain, buildings, or other structures in a scene. The geometry can be used for occlusion, rendering, or placing AR content via hit-test APIs. Streetscape Geometry data is obtained through Google Street View imagery.
+[Project link](https://developers.google.com/ar/develop/unity-arf/geospatial/streetscape-geometry)
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+## Google Maps AR walking Navigation 
+<iframe width="780" height="439" src="https://www.youtube.com/embed/-6JHDmnMB_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+I worked on improving AR Walking Navigation experience in indoor venues such as TRansit hubs, Airports and Malls (TRAMs). Concretely I aim to improve turn barrier placement in indoor scenarios and multi-floor transition. ARWN allows users within select Malls/Airports/TRansit hubs to use 3D navigation indoors, with multi-floor guidance to lead users to leveling points (stairs / escalators / elevators) so that they can reach their focused location. We provided more active guidance since airports and train stations usually have complex layouts requiring some type of navigation routing (e.g., U-shape buildings, mandatory passage through security checkpoints).
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+
+# Talks
+<iframe width="780" height="439" src="https://www.youtube.com/embed/UIr6bV4ZCw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+What’ new in Google AR at Google Developer Summit China

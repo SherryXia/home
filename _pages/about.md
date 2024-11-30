@@ -13,7 +13,7 @@ I am interested in technical Human-computer interaction and robot learning from 
 
 Previously, I completed my M.S. in electrical and computer engineering at Cornell University and my B.S. in electronic science and engineering at Southeast University, China. See my research, projects, youtube, talks and demos for fun! 
 
-<p/>
+<br>
 
 # Research Projects
 
@@ -46,6 +46,7 @@ I led the Streetscape Geometry APIs, which was launched at Google I/O 2023. The 
 <iframe class="iframe-video" width="780" height="439" src="https://www.youtube.com/embed/-6JHDmnMB_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 I worked on improving AR Walking Navigation experience in indoor venues such as TRansit hubs, Airports and Malls (TRAMs). Concretely I aim to improve turn barrier placement in indoor scenarios and multi-floor transition. ARWN allows users within select Malls/Airports/TRansit hubs to use 3D navigation indoors, with multi-floor guidance to lead users to leveling points (stairs / escalators / elevators) so that they can reach their focused location. We provided more active guidance since airports and train stations usually have complex layouts requiring some type of navigation routing (e.g., U-shape buildings, mandatory passage through security checkpoints).
 
+<br>
 
 # Talks
 <iframe class="iframe-video" width="780" height="439" src="https://www.youtube.com/embed/UIr6bV4ZCw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>

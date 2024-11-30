@@ -11,7 +11,7 @@ Welcome to Min's reality! I am a senior software engineer at Google, serving as 
 
 I am interested in technical Human-computer interaction and robot learning from diverse sources and multimodal datasets. 
 
-Previously, I completed my M.S. in electrical and computer engineering at Cornell University and my B.S. in electronic science and engineering at Southeast University, China.See my research, projects, youtube, talks and demos for fun! 
+Previously, I completed my M.S. in electrical and computer engineering at Cornell University and my B.S. in electronic science and engineering at Southeast University, China. See my research, projects, youtube, talks and demos for fun! 
 
 
 # Research Projects
@@ -23,7 +23,7 @@ Traditional robot programming is tedious and requires expert knowledge. Defining
 We envision a future where anyone can easily teach robots new skills. Imagine instructing a robot simply by showing it what to do, much like we teach each other.
 Project completed, in progress of writing paper.
 
-## AI glasses
+## AI Glasses
 <iframe class="ai-glass" width="780" height="439" src="https://www.youtube.com/embed/OVbce5iGSQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 <div class="ai-glass-metadata">Glasses appear at 3:00</div>
 Our aim was to generate responses based on users' queries and images captured by glasses. I proposed a novel composed retrieval model, LLMs generating responses based on CLIP detected objects, business info from Google Lens, and user query.  As the system evolves, we need a way to benchmark the performance. I defined five innovative rating categories: factuality, readiness, offensiveness, informativeness and responsiveness, and designed the prompts to evaluate the response in each category automatically. The evaluation results correlated highly with human labels. For example, the factuality gets 95% precision and 90% recall on a dataset containing 4000 responses, which was already rated by humans.

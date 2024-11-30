@@ -22,7 +22,7 @@
   }
   
   .fluid-width-video-wrapper:has(iframe.ai-glass)::after {
-    content: "Glasses appear at 3:00";
+    // content: "Glasses appear at 3:00";
     color: white;
     position: absolute;
     right: 5px;

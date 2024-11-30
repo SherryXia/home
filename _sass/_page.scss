@@ -38,6 +38,15 @@
     top: -77px;
     right: 5px;
     pointer-events: none;
+    overflow: visible;
+    font-size: 16px;
+    @include breakpoint($small) {
+      font-size: 14px;
+    }
+  }
+
+  .iframe-video {
+    margin-bottom: 8px;
   }
   
   .page {

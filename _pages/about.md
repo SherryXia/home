@@ -11,7 +11,7 @@ Welcome to Min's reality! I am a senior software engineer at Google, serving as 
 
 I am interested in technical Human-computer interaction and robot learning from diverse sources and multimodal datasets. 
 
-Previously, I completed my M.S. in electrical and computer engineering at Cornell University and my B.S. in electronic science and engineering at Southeast University, China. See my research, projects, youtube, talks and demos for fun! 
+Previously, I completed my M.S. in electrical and computer engineering at Cornell University and my B.S. in electronic science and engineering at Southeast University, China. See my research, projects, youtube, talks and demos for fun!
 
 <br>
 

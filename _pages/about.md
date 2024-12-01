@@ -30,10 +30,11 @@ Project completed, in progress of writing paper.
 Our aim was to generate responses based on users' queries and images captured by glasses. I proposed a novel composed retrieval model, LLMs generating responses based on CLIP detected objects, business info from Google Lens, and user query.  As the system evolves, we need a way to benchmark the performance. I defined five innovative rating categories: factuality, readiness, offensiveness, informativeness and responsiveness, and designed the prompts to evaluate the response in each category automatically. The evaluation results correlated highly with human labels. For example, the factuality gets 95% precision and 90% recall on a dataset containing 4000 responses, which was already rated by humans.
 
 ## Geospatial Content in Google Maps
-<iframe class="iframe-video" width="780" height="439" src="https://www.youtube.com/embed/udoSz_UBUdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<iframe class="iframe-video" width="780" height="439" src="https://www.youtube.com/embed/nnok8ZVQdWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 I led a cross-platform (iOS and Android) system for serving virtual content in Google Maps Street View and Live View, impacting millions of users at landmark locations globally. The virtual contents align accurately with geo coordinates and buildings.
-Video: Explore historical landmarks in Paris with augmented reality in Google Maps | Google Arts & Culture
-Geospatial API
+
+## Geospatial API
+<iframe class="iframe-video" width="780" height="439" src="https://www.youtube.com/embed/udoSz_UBUdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 I led the Geospatial API, which was launched at Google I/O 2022. The ARCore Geospatial API enables you to remotely attach content to any area covered by Google Street View and create AR experiences on a global scale. It uses device sensor and GPS data to detect the device's environment, then matches the recognizable parts of that environment to a localization model provided by Google’s Visual Positioning System (VPS) to determine the precise location of a user’s device.
 [Project link](https://developers.google.com/ar/develop/geospatial)
 
@@ -51,3 +52,4 @@ I worked on improving AR Walking Navigation experience in indoor venues such as 
 # Talks
 <iframe class="iframe-video" width="780" height="439" src="https://www.youtube.com/embed/UIr6bV4ZCw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 What’ new in Google AR at Google Developer Summit China
+Discover how ARCore enables developers to create immersive and interactive AR applications with features focused on realism, perception, and asynchronous interaction.

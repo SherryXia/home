@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to Min's reality! I am a senior software engineer at Google, serving as ARCore tech lead. I also spend 20% time at Google Deepmind Robot team.
+Welcome to <span style="color: red">Min's reality!</span> I am a senior software engineer at Google, serving as ARCore tech lead. I also spend 20% time at Google Deepmind Robot team.
 
 I am interested in technical Human-computer interaction and robot learning from diverse sources and multimodal datasets. 
 

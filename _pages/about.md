@@ -41,6 +41,7 @@ I led the Geospatial API, which was launched at Google I/O 2022. The ARCore Geos
 ## Geospatial API V2
 <iframe class="iframe-video" width="780" height="439" src="https://www.youtube.com/embed/BPCuT_5Hv8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 I led the Streetscape Geometry APIs, which was launched at Google I/O 2023. The Streetscape Geometry APIs provide the geometry of terrain, buildings, or other structures in a scene. The geometry can be used for occlusion, rendering, or placing AR content via hit-test APIs. Streetscape Geometry data is obtained through Google Street View imagery.
+
 [Project link](https://developers.google.com/ar/develop/unity-arf/geospatial/streetscape-geometry)
 
 ## Google Maps AR W1alking Navigation 

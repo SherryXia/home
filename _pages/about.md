@@ -50,7 +50,7 @@ I led the Geospatial API, which was launched at Google I/O 2022. The ARCore Geos
 I led the Streetscape Geometry APIs, which was launched at Google I/O 2023. The Streetscape Geometry APIs provide the geometry of terrain, buildings, or other structures in a scene. The geometry can be used for occlusion, rendering, or placing AR content via hit-test APIs. Streetscape Geometry data is obtained through Google Street View imagery.
 [Project link](https://developers.google.com/ar/develop/unity-arf/geospatial/streetscape-geometry)
 
-## Google Maps AR W1alking Navigation 
+## Google Maps AR Walking Navigation 
 <iframe class="iframe-video" width="780" height="439" src="https://www.youtube.com/embed/-6JHDmnMB_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 I worked on improving AR Walking Navigation experience in indoor venues such as TRansit hubs, Airports and Malls (TRAMs). Concretely I aim to improve turn barrier placement in indoor scenarios and multi-floor transition. ARWN allows users within select Malls/Airports/TRansit hubs to use 3D navigation indoors, with multi-floor guidance to lead users to leveling points (stairs / escalators / elevators) so that they can reach their focused location. We provided more active guidance since airports and train stations usually have complex layouts requiring some type of navigation routing (e.g., U-shape buildings, mandatory passage through security checkpoints).
 

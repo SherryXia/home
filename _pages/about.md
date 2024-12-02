@@ -16,7 +16,7 @@ Previously, I completed my M.S. in electrical and computer engineering at Cornel
 <br>
 <ul class="actions">
   <li><a href="/files/cv.pdf" class="button" target="_blank">CV</a></li>
-  <li><a href=#research-projects" class="button">Research Projects</a></li>
+  <li><a href="#research-projects" class="button">Research Projects</a></li>
   <li><a href="#talks" class="button">Talks</a></li>
 </ul>
 

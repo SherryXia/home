@@ -20,6 +20,17 @@
     width: 100%;
     padding: 0;
   }
+
+  ul.actions {
+    display: flex;
+    cursor: default;
+    list-style: none;
+    padding: 0;
+  }
+
+  li.botton:hover {
+    
+  }
   
   .fluid-width-video-wrapper:has(iframe.ai-glass)::after {
     // content: "Glasses appear at 3:00";

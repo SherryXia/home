@@ -13,7 +13,6 @@ I am interested in technical Human-computer interaction and robot learning from 
 
 Previously, I completed my M.S. in electrical and computer engineering at Cornell University and my B.S. in electronic science and engineering at Southeast University, China. See my research, projects, youtube, talks and demos for fun!
 
-<br>
 <ul class="actions">
   <li><a href="files/cv.pdf" class="button" target="_blank">CV</a></li>
   <li class="vertical-bar">|</li>

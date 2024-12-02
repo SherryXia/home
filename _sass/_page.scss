@@ -26,10 +26,12 @@
     cursor: default;
     list-style: none;
     padding: 0;
+    gap: 12px;
+    margin-bottom: 40px;
   }
 
   li.botton:hover {
-    
+
   }
   
   .fluid-width-video-wrapper:has(iframe.ai-glass)::after {

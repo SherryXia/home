@@ -34,7 +34,7 @@ Project completed, in progress of writing paper.
 ## AI Glasses
 <iframe class="ai-glass iframe-video" width="780" height="439" src="https://www.youtube.com/embed/OVbce5iGSQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 <div class="ai-glass-metadata">Glasses appear at 3:00</div>
-Our aim was to generate responses based on users' queries and images captured by glasses. I proposed a novel composed retrieval model, LLMs generating responses based on CLIP detected objects, business info from Google Lens, and user query.  As the system evolves, we need a way to benchmark the performance. I defined five innovative rating categories: factuality, readiness, offensiveness, informativeness and responsiveness, and designed the prompts to evaluate the response in each category automatically. The evaluation results correlated highly with human labels. For example, the factuality gets 95% precision and 90% recall on a dataset containing 4000 responses, which was already rated by humans.
+Our aim was to generate responses based on users' queries and images captured by glasses. I proposed a novel composed retrieval model, LLMs generating responses based on CLIP detected objects, business info from Google Lens, and user query.  As the system evolves, we need a way to benchmark the performance. I defined five innovative rating categories: factuality, readability, offensiveness, informativeness and responsiveness, and designed the prompts to evaluate the response in each category automatically. The evaluation results correlated highly with human labels. For example, the factuality gets 95% precision and 90% recall on a dataset containing 4000 responses, which was already rated by humans.
 
 ## Geospatial Content in Google Maps
 <iframe class="iframe-video" width="780" height="439" src="https://www.youtube.com/embed/nnok8ZVQdWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
@@ -58,5 +58,5 @@ I worked on improving AR Walking Navigation experience in indoor venues such as 
 
 # Talks
 <iframe class="iframe-video" width="780" height="439" src="https://www.youtube.com/embed/UIr6bV4ZCw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-What’ new in Google AR at Google Developer Summit China 
+What’ new in Google AR at Google Developer Summit China.
 Discover how ARCore enables developers to create immersive and interactive AR applications with features focused on realism, perception, and asynchronous interaction.

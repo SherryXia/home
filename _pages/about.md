@@ -58,5 +58,5 @@ I worked on improving AR Walking Navigation experience in indoor venues such as 
 
 # Talks
 <iframe class="iframe-video" width="780" height="439" src="https://www.youtube.com/embed/UIr6bV4ZCw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-What’ new in Google AR at Google Developer Summit China
+What’ new in Google AR at Google Developer Summit China 
 Discover how ARCore enables developers to create immersive and interactive AR applications with features focused on realism, perception, and asynchronous interaction.

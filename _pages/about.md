@@ -24,6 +24,8 @@ Previously, I completed my M.S. in electrical and computer engineering at Cornel
 
 # Research Projects
 
+## Sensible Agent: A Framework for Unobtrusive Interaction with Proactive AR Agent
+
 ## Video to Rewards for Robotic Skill Synthesis
 <video class="video" playsinline="" muted="" autoplay="" loop=""><source src="assets/video/RewardsForRoboticSkillSynthesis.mov" type="video/mp4"></video>
 Our goal is to enable Intuitive robot skill creation through AR and Human Demonstration. Users provide a video demonstration and our system generates the reward functions through large language models (LLMs) to control low level robot actions.

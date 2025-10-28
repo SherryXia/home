@@ -28,12 +28,12 @@ Previously, I completed my M.S. in electrical and computer engineering at Cornel
 <video class="video" playsinline="" muted="" autoplay="" loop=""><source src="assets/video/SensibleAgent.mp4" type="video/mp4"></video>
 <p class="paper-authors">Geonsun Lee, <span style="color:blue">Min Xia</span>, Nels Numan, Xun Qian, David Li, Yanhe Chen, Achin Kulshrestha, Ishan Chatterjee, Yinda Zhang, Dinesh Manocha, David Kim, and Ruofei Du</p>
 <p class="paper-meta"><small><em>Proceedings of the 39th Annual ACM Symposium on User Interface Software and Technology (UIST), 2025.</em></small></p>
-<!-- <ul class="actions">
+<ul class="actions">
   <li><a href="/_publications/SensibleAgent-AFrameworkForUnobtrusiveInteractionWithProactiveARAgent_UIST2025.pdf" target="_blank">PDF</a></li>
   <li><a href="https://youtu.be/nR3VSpvQwvo" target="_blank">Video</a></li>
-</ul>   -->
-[PDF — Sensible Agent: A Framework for Unobtrusive Interaction with Proactive AR Agent (UIST 2025)](/_publications/SensibleAgent-AFrameworkForUnobtrusiveInteractionWithProactiveARAgent_UIST2025.pdf){:target="_blank" title="Sensible Agent: A Framework for Unobtrusive Interaction with Proactive AR Agent"}
-<p class="links"><a href="/papers/SensibleAgent-AFrameworkForUnobtrusiveInteractionWithProactiveARAgent_UIST2025.pdf" title="Sensible Agent: A Framework for Unobtrusive Interaction with Proactive AR Agent" target="_blank">pdf</a>,</p>
+</ul>  
+[PDF — Sensible Agent: A Framework for Unobtrusive Interaction with Proactive AR Agent (UIST 2025)](/_publications/SensibleAgent-AFrameworkForUnobtrusiveInteractionWithProactiveARAgent_UIST2025.pdf){:target="_blank"}
+<p class="links"><a href="/papers/SensibleAgent-AFrameworkForUnobtrusiveInteractionWithProactiveARAgent_UIST2025.pdf" title="Sensible Agent: A Framework for Unobtrusive Interaction with Proactive AR Agent" target="_blank">pdf</a>, <a href="https://youtu.be/nR3VSpvQwvo" target="_blank">Video</a></p>
 
 
 ## Video to Rewards for Robotic Skill Synthesis

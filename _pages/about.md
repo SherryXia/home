@@ -32,8 +32,8 @@ Previously, I completed my M.S. in electrical and computer engineering at Cornel
   <li><a href="/_publications/SensibleAgent-AFrameworkForUnobtrusiveInteractionWithProactiveARAgent_UIST2025.pdf" target="_blank">PDF</a></li>
   <li><a href="https://youtu.be/nR3VSpvQwvo" target="_blank">Video</a></li>
 </ul>   -->
-<!-- [PDF — Sensible Agent: A Framework for Unobtrusive Interaction with Proactive AR Agent (UIST 2025)](/_publications/SensibleAgent-AFrameworkForUnobtrusiveInteractionWithProactiveARAgent_UIST2025.pdf){:target="_blank" title="Sensible Agent: A Framework for Unobtrusive Interaction with Proactive AR Agent"} -->
-<p class="links"><a href="/papers/SensibleAgent-AFrameworkForUnobtrusiveInteractionWithProactiveARAgent_UIST2025.pdf" title="Sensible Agent: A Framework for Unobtrusive Interaction with Proactive AR Agent" target="_blank">pdf</a>","</p>
+[PDF — Sensible Agent: A Framework for Unobtrusive Interaction with Proactive AR Agent (UIST 2025)](/_publications/SensibleAgent-AFrameworkForUnobtrusiveInteractionWithProactiveARAgent_UIST2025.pdf){:target="_blank" title="Sensible Agent: A Framework for Unobtrusive Interaction with Proactive AR Agent"}
+<!-- <p class="links"><a href="/papers/SensibleAgent-AFrameworkForUnobtrusiveInteractionWithProactiveARAgent_UIST2025.pdf" title="Sensible Agent: A Framework for Unobtrusive Interaction with Proactive AR Agent" target="_blank">pdf</a>","</p> -->
 
 
 ## Video to Rewards for Robotic Skill Synthesis

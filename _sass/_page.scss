@@ -125,6 +125,18 @@
         display: block
       }
     }
+
+    /* Tweak spacing for paper author/meta blocks */
+    .paper-authors {
+      margin: 0 0 0.25em; /* small gap below author list */
+      font-size: 1em;
+    }
+
+    .paper-meta {
+      margin: 0 0 0.9em; /* reduce top gap and keep a modest bottom gap */
+      font-size: 0.95em;
+      color: $text-color;
+    }
   
     a {
       text-decoration: underline;

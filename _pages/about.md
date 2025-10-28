@@ -29,7 +29,7 @@ Previously, I completed my M.S. in electrical and computer engineering at Cornel
 <p class="paper-authors">Geonsun Lee, <span style="color:blue">Min Xia</span>, Nels Numan, Xun Qian, David Li, Yanhe Chen, Achin Kulshrestha, Ishan Chatterjee, Yinda Zhang, Dinesh Manocha, David Kim, and Ruofei Du</p>
 <p class="paper-meta"><small><em>Proceedings of the 39th Annual ACM Symposium on User Interface Software and Technology (UIST), 2025.</em></small></p>
 <ul class="actions">
-  <li><a href="/_publications/SensibleAgent-AFrameworkForUnobtrusiveInteractionWithProactiveARAgent_UIST2025.pdf" target="_blank">PDF</a></li>
+  <li><a href="_publications/SensibleAgent-AFrameworkForUnobtrusiveInteractionWithProactiveARAgent_UIST2025.pdf" target="_blank">PDF</a></li>
   <li><a href="https://youtu.be/nR3VSpvQwvo" target="_blank">Video</a></li>
 </ul>
 

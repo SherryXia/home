@@ -128,12 +128,12 @@
 
     /* Tweak spacing for paper author/meta blocks */
     .paper-authors {
-      margin: 0 0 0.15em; /* smaller gap below author list */
+      margin: 0 0 0; /* smaller gap below author list */
       font-size: 1em;
     }
 
     .paper-meta {
-      margin: 0 0 0.15em; /* tighten spacing around proceedings line */
+      margin: 0 0 0; /* tighten spacing around proceedings line */
       font-size: 0.95em;
       color: $text-color;
     }

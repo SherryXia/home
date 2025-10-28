@@ -25,7 +25,7 @@ Previously, I completed my M.S. in electrical and computer engineering at Cornel
 # Research Projects
 
 ## Sensible Agent: A Framework for Unobtrusive Interaction with Proactive AR Agent
-
+<video class="video" playsinline="" muted="" autoplay="" loop=""><source src="assets/video/SensibleAgent.mp4" type="video/mp4"></video>
 
 ## Video to Rewards for Robotic Skill Synthesis
 <video class="video" playsinline="" muted="" autoplay="" loop=""><source src="assets/video/RewardsForRoboticSkillSynthesis.mov" type="video/mp4"></video>
